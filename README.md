@@ -1,3 +1,6 @@
+##### Usage,
+
+```
 ./check_mon_status.pl 
 
  Ops... I am need something to help. look usage below..
@@ -11,11 +14,12 @@ Copyright (c) 2011 Deepak Kosaraju
 #### NOTE: RECOVERY EMAIL's ARE ONLY SENT TO EMAIL THAT IS FIRST IN THE LIST THAT IS FEEDED WITH -e OPTION ###
         
 ** Add following cron entry to a file in '/etc/cron.d/mon_status **
+
         
 ####
 */5 * * * * root /opt/plugins/custom/check_mon_status -e < place email id's here>
 ####
-  
+
 Usage: ./check_mon_status.pl [-e <email address | multiple addresses can be seprate by ,>]
         
         -e  < All emails who need to get notifications separated by , >
@@ -26,3 +30,4 @@ Usage: ./check_mon_status.pl [-e <email address | multiple addresses can be sepr
         
         -h | --help
 
+```
